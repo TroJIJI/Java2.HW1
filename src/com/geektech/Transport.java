@@ -21,11 +21,5 @@ public class Transport {
         return type;
     }
 
-    public void setYear(int year) {
-        this.year = year;
-    }
 
-    public void setType(String type) {
-        this.type = type;
-    }
 }

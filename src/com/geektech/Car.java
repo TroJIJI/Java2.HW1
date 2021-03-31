@@ -21,7 +21,7 @@ public class Car extends Transport{
         return cost;
     }
     public void race(int time,int speed){
-        System.out.println(time +"сек"+ " до "+speed + "км/ч");
+        System.out.println("разгон "+time +"сек"+ " до "+speed + "км/ч");
     }
     public void race(int time){
         System.out.println(time);

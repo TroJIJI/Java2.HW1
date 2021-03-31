@@ -4,7 +4,7 @@ public class Main {
 
     public static void main(String[] args) {
     Car car = new Car(Name.TOYOTA,60000);
-    car.race(3,150);
+    car.race(3,100);
         System.out.print(car.getInfo());
         System.out.println("\n_____________________");
 
